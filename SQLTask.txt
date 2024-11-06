@@ -1,0 +1,35 @@
+Şirkət idarəetmə proqramı kimi düşünün. Department datalarımız var.Hər departamentin adı var. Employee datalarımız var və hər bir emoloyee-in Adı, Soyadı, Email, Maaşı və hansı departmentdə işlədiyini bildiren columnları var. CompanyDB
+
+Departments
+Name - bosh ola bilmez, tekrarlanmamalidir
+
+Employees
+Name - bosh ola bilmez
+Surname - bosh ola bilmez
+Salary - bosh ola bilmez
+Email - bosh ola bilmez, tekrarlanmamalidir
+DepartmentName - bosh ola bilmez
+
+Bu şərtlərə əsasən sql-də commandlarla (ddl və dml) yaradıb içinə datalar insert edirsiniz.Daha sonra aşağıdakı select query-lərini yazırsınız.
+
+
+========== DDL ==========
+Database yaradirsiniz
+Database secirsiniz
+Secdiyiniz database'de Table yaradirsiniz
+
+Table silirsiniz
+Column elave edirsiniz
+Column tipini deyishirsiniz
+Column silirsiniz
+
+========== DML ==========
+Her table'a 5 data insert edirsiniz
+Datalari deyishirniz
+Datalari silirsiniz
+
+
+Maaşı 1000-dən çox olan işçiləri select edən query
+İşçilərin ad və soyadlarını birləşdirib fullname kimi göstərən select query
+Maaşı 1000 - 2500 aralığında olan işçiləri göstərən select query
+Adında A hərfi olan işçiləri göstərən select query - (bunu araşdırın)
